@@ -1,0 +1,81 @@
+:root{
+    --home-font: 'Exo 2', sans-serif;
+}
+
+*{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    height: 10vh;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.75rem;
+}
+.nav-right > span{
+    margin-right: 3rem;
+    text-underline-offset: .5rem;
+}
+.nav-right > span:hover{
+    text-decoration: underline;
+}
+
+.nav-button{
+    color: white;
+    border-color: white;
+    border-radius: 40px;
+    width: 2.75rem;
+    height: 2.75rem;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    opacity: 75%;
+}
+
+.logo{
+    background-image: url(/Screen\ Shot\ 2023-12-26\ at\ 12.40.57\ PM.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -1.5rem;
+    width: 9.5rem;
+    height: 9.5rem;
+    border-color: white;
+}
+
+.main-container{
+    height: 70vh;
+}
+
+.container-words > span:first-child{
+    text-align: center;
+    
+}
+.container-words > span{
+    display: block;
+    font-size: 15rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.main-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
