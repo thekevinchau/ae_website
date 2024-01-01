@@ -8,6 +8,7 @@
     margin: 0;
 }
 body{
+    font-family: var(--font);
     background-color: rgb(228, 226, 226);
 }
 
@@ -33,6 +34,13 @@ body{
     color: inherit;
     font-size: 1.25rem;
     text-decoration: none;
+    text-underline-offset: .5rem;;
+}
+
+
+.nav-right > a:hover{
+    text-decoration: underline;
+    opacity: 60%;
 }
 
 .logo{
@@ -106,6 +114,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
 }
 .section-header > h1{
     font-size: 3rem;
@@ -126,4 +135,24 @@ body{
 
 .about-us-desc > p {
     margin-top: 1rem;
+}
+.services{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.service-tiles{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 3rem;;
+}
+.service-tile{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 
 }
