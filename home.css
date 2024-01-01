@@ -101,6 +101,7 @@ body{
     font-family: var(--font);
     transition: 0.3s;
     border: 2px solid white;
+    text-decoration: none;
 }
 .body-image > a:hover{
     color: #fff;
@@ -147,12 +148,17 @@ body{
     display: flex;
     justify-content: space-between;
     width: 80vw;
+    border: 1px solid red;
+    height: 50vh;
     margin-top: 3rem;;
 }
 .service-tile{
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 
+    align-items:normal;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 25%;
+    height: 25rem;
 }
