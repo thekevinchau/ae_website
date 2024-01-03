@@ -19,7 +19,14 @@ function setImages() {
         "portfolio-photos/50da1426fc747415a57321c7b929643d.jpeg", 
         "portfolio-photos/8687fe95e58647c5fbea18566b2d564a.jpeg", 
         "portfolio-photos/017dfa9c6553b51df5e660a7369eecd6.jpeg",
-        "portfolio-photos/1f0045823120765eb11e56ff989e9a59.jpeg"]
+        "portfolio-photos/1f0045823120765eb11e56ff989e9a59.jpeg",
+        "portfolio-photos/bc6c999cdc4611fce76960bb90c8d606.jpeg",
+        "portfolio-photos/f92ededbcdc4fe32ea1e3dfdbd0bbb32.jpeg",
+        "portfolio-photos/IMG_0923.jpeg",
+        "portfolio-photos/IMG_2181.jpeg",
+        "portfolio-photos/IMG_1962.jpeg"
+    ];
+
 
     let portfolio_container = document.querySelector('.portfolio-cards')
 
