@@ -34,7 +34,8 @@ body{
     color: inherit;
     font-size: 1.4rem;
     text-decoration: none;
-    text-underline-offset: .5rem;;
+    text-underline-offset: .5rem;
+
 }
 .nav-right{
     padding-right: 7rem;
@@ -231,7 +232,7 @@ body{
 }
 
 .contact{
-    height: 65vh;
+    height: 55vh;
 }
 
 .contact-body{
