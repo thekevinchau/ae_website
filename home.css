@@ -197,8 +197,8 @@ body{
 .portfolio-cards{
     margin-top: 5vh;
     display: grid;
-    row-gap: 3rem;
-    column-gap: 3.5rem;
+    row-gap: 3.5rem;
+    column-gap: 6.5rem;
     margin-left: 10vw;
     margin-right: 10vw;
     grid-template-columns: repeat(3,1fr);
@@ -214,6 +214,7 @@ body{
 }
 
 .portfolio-card:hover{
+    cursor: pointer;
     margin-top: 1em;
     margin-left: .5em;
 }
@@ -241,6 +242,7 @@ body{
 
 .left-contact{
     display: flex;
+    padding-top: 5rem;
     flex-direction: column;
     width: 29vw;
     margin-left: 10vw;
@@ -276,6 +278,7 @@ body{
     height: 8rem;
 }
 .right-contact > button{
+    font-family: Arial;
     margin-top: 1rem;
     background-color: black;
     border: none;
