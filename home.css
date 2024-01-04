@@ -235,8 +235,11 @@ body{
     height: 50vh;
 }
 
+.contact-body{
+    display: flex;
+}
+
 .left-contact{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -244,7 +247,19 @@ body{
     margin-top: 5vh;
 }
 
+.right-contact{
+    margin-top: 7vh;
+    width: 50vw;
+    display: inline;
+}
+
 .left-contact > p{
-    font-size: 1.5rem;
+    letter-spacing: 2.75px;
+    font-size: 1.2rem;
     margin-top: 1rem;
+}
+
+.contact-name{
+    width: 43rem;
+    height: 3rem;
 }
