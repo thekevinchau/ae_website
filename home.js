@@ -11,6 +11,70 @@ function setServiceColor() {
         }})
 }
 
+function serviceHelper(array){
+    let ul = document.createElement('ul');
+    for (let i = 0; i < array.length; i++){
+        let li = document.createElement('li');
+        li.textContent = array[i];
+        ul.appendChild(li);
+        console.log(ul);
+    }
+    return ul;
+}
+
+function setServiceDetails(){
+    const mechanical_systems = [
+        'Heating',
+        'Ventilation',
+        'Air Conditioning',
+        'Boiler Systems',
+        'Chilling Systems',
+        'Pumps',
+        'Energy Management',
+        'Building Automation'
+      ];
+    const electrical_systems = [
+        'Power Distribution',
+        'Lighting Control',
+        'Fire Alarm Systems',
+        'Telecommunication',
+        'Security Systems',
+        'Emergency Generator',
+        'Uninterruptible Power Supply',
+        'Short Circuit, Coordination',
+        'Arc Flash'
+      ];
+    const plumbing_systems = [
+        'Building Plumbing',
+        'Domestic Water System',
+        'Sanitary System',
+        'Storm Water System',
+        'Sprinkler Layout',
+        'Sewage Pumps',
+        'Water Purification',
+        'Natural Gas System',
+        'Grease Traps'
+      ];
+
+    let serviceCards = document.querySelectorAll('.service-tile');
+
+    serviceCards.forEach((card) => {
+        if (card.id === "tile-1"){
+            let ul = serviceHelper(mechanical_systems);
+            card.appendChild(ul);
+        }
+        else if (card.id === "tile-2"){
+            let ul = serviceHelper(electrical_systems);
+           card.appendChild(ul);
+        }
+        else{
+            let ul = serviceHelper(plumbing_systems);
+            card.appendChild(ul);
+        }
+    })
+}
+
+
 
 //Function that generates the photos in order from the photo array.
 function setImages() {
@@ -51,6 +115,8 @@ function setImages() {
 function main(){
     setImages();
     setServiceColor();
+    setServiceDetails();
+
 }
 
 main();
