@@ -13,12 +13,13 @@ body{
 }
 
 .navbar{
+    background-color: white;
     position: sticky;
-    background-color: rgb(71, 69, 69);
-    height: 10vh;
+    height: 12vh;
     width: 100vw;
     display: flex;
-    color: white;
+    background-color:white;
+    color: black;
     align-items: center;
     justify-content: space-between;
 }
@@ -32,9 +33,12 @@ body{
 .nav-right > a{
     font-family: var(--font);
     color: inherit;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     text-decoration: none;
     text-underline-offset: .5rem;;
+}
+.nav-right{
+    padding-right: 7rem;
 }
 
 
@@ -44,12 +48,14 @@ body{
 }
 
 .logo{
-    background-image: url(Screen\ Shot\ 2023-12-26\ at\ 12.40.57\ PM.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -1.5rem;
-    width: 9.5rem;
-    height: 9.5rem;
+    margin-left: 3rem;
+    background-image: url(logo.png);
+    padding-bottom: 5px;
+    height: 8rem;
+    width: 13rem;
+    font-weight: bold;
+    vertical-align: center;
+    background-size: cover;
     border-color: white;
 }
 .body-image{
@@ -184,13 +190,14 @@ body{
 }
 
 .portfolio{
-    height: 100vh;
+    height: 130vh;
     width: 100vw;
 }
 .portfolio-cards{
     margin-top: 5vh;
     display: grid;
-    gap: 5rem;
+    row-gap: 2.2rem;
+    column-gap: 5rem;
     margin-left: 10vw;
     margin-right: 10vw;
     grid-template-columns: repeat(3,1fr);
@@ -205,11 +212,12 @@ body{
 }
 
 .portfolio-card:hover{
-    margin-right: 1em;
     margin-top: 1em;
+    margin-left: .5em;
 }
 
 .portfolio-image{
+    filter: brightness(110%);
     border-radius: 20px;
     background-size: cover;
     text-align: center;
